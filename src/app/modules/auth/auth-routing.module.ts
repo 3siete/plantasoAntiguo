@@ -4,7 +4,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { RegisterComponent } from './pages/register/register.component';
 
 const routes: Routes = [
-  //rutas segundarias
+  //rutas secundarias
   {path:'login',component:LoginComponent},
   {path:'register',component:RegisterComponent}
 ];
