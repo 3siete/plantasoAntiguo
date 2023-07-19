@@ -93,4 +93,40 @@
     font-weight: 500; /* Peso de fuente */
     cursor: pointer; /* Cambia el cursor a una mano */
   }
-  
+  /* Estilos para el input dentro de elementos con clase 'container' */
+.container input {
+  position: absolute; /* Posicionamiento absoluto para superponer el input */
+  opacity: 0; /* Hace el input invisible */
+  cursor: pointer; /* Cambia el cursor a una mano al pasar por encima */
+  height: 0; /* Altura 0 para hacerlo invisible */
+  width: 0; /* Ancho 0 para hacerlo invisible */
+}
+
+/* Estilos para elementos con clase 'container' */
+.container {
+  display: block; /* Se muestra como bloque */
+  position: relative; /* Posicionamiento relativo */
+  cursor: pointer; /* Cambia el cursor a una mano al pasar por encima */
+  user-select: none; /* Evita que el texto se pueda seleccionar */
+}
+
+/* Estilos para el svg dentro de elementos con clase 'container' */
+.container svg {
+  position: relative; /* Posicionamiento relativo */
+  top: 0; /* Posicionamiento en la parte superior (no se mueve) */
+  left: 0; /* Posicionamiento en la parte izquierda (no se mueve) */
+  height: 50px; /* Altura del svg */
+  width: 50px; /* Ancho del svg */
+  transition: all 0.3s; /* Transición suave de 0.3 segundos para cambios animados */
+  fill: #666; /* Color de relleno del svg (#666 es un gris oscuro) */
+}
+
+/* Estilos para el svg dentro de elementos con clase 'container' al hacer hover */
+.container svg:hover {
+  transform: scale(1.1); /* Aumenta el tamaño del svg al 110% al hacer hover */
+}
+
+/* Estilos para el svg dentro de elementos con clase 'container' cuando el input está marcado */
+.container input:checked ~ svg {
+  fill: #ffeb49; /* Cambia el color de relleno del svg cuando el input está marcado (#ffeb49 es un amarillo claro) */
+}
