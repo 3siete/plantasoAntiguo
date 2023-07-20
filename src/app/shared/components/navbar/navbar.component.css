@@ -94,3 +94,28 @@ header{
     display: flex;
     justify-content: center;
 }
+
+/*RESPONSIVE DESIGN */
+@media(max-width:992px){
+    .navbar .links_div,
+    .navbar .action_div{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .navbar .hamburger_btn{
+        display: block;
+    }
+}
+
+@media(max-width: 476px){
+    .dropdown_menu_responsive{
+        left: 2rem;
+        width: unset;
+    }
+}
+ 
