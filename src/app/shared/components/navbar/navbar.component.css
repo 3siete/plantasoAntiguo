@@ -67,3 +67,30 @@ header{
     cursor: pointer;
     display: none;
 }
+
+/*DROPDOWN MENU*/
+
+.dropdown_menu_responsive{
+    position: absolute;
+    margin-top: 3px;
+    right: 2rem;
+    top: 60px;
+    width: 300px;
+    background-color: rgba(200, 200, 200, 0.3);
+    backdrop-filter: blur(17px);
+    border-radius: 10px;
+}
+.dropdown_menu_responsive{
+    height: 260px;
+}
+.dropdown_menu_responsive li{
+    padding: .7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dropdown_menu_responsive .action_btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
