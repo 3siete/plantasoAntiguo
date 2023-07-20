@@ -89,7 +89,7 @@ header{
     align-items: center;
     justify-content: center;
 }
-.dropdown_menu_responsive .action_btn{
+.dropdown_menu_responsive .hamburger_btn{
     width: 100%;
     display: flex;
     justify-content: center;
