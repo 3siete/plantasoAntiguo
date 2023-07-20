@@ -29,7 +29,7 @@
 
     <!--DROPDOWN MENU RESPONSIVE-->
 
-    <div *ngIf="dropdownMenuResponsive">
+    <ng-container  *ngIf="dropdownMenuResponsive">
         <div [ngClass]="'dropdown_menu_responsive'">
             <li><a href="#">Home</a></li>
             <li><a href="#">Products</a></li>
@@ -38,5 +38,5 @@
             <li><a href="#">Registrarte</a></li>
             <li><a href="#">Config</a></li>
         </div>
-    </div>
+    </ng-container>
 </header>
