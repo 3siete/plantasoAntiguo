@@ -10,7 +10,6 @@ export class NavbarComponent implements OnInit {
   constructor() { }
 
   dropdownMenuResponsive:boolean = false;
-  dropdownMenu:boolean = false;
 
   responsiveMenu(){
     if(this.dropdownMenuResponsive === false){
