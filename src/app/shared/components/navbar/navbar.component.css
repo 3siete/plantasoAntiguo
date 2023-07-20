@@ -10,5 +10,51 @@ a {
 }
 a:hover{
     color:#249E5F;
-    scale: 1.05;
+    scale: 1.09;
+}
+
+/*HEADER*/
+
+/*HEADER*/
+
+header{
+    position: relative;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(200, 200, 200, 0.3);
+    backdrop-filter: blur(15px);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.navbar .logo img{
+    font-size: 1rem;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+}
+.links_div{
+    width: 190px;
+}
+.navbar .links{
+    display: flex ;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-bottom: 12px;
+}
+.action_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
 }
