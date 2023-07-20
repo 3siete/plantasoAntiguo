@@ -59,3 +59,11 @@ header{
     align-items: center;
     width: 190px;
 }
+
+/*Hamburger Menu*/
+.navbar .hamburger_btn{
+    color: #ffffff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
